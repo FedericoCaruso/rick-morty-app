@@ -1,46 +1,26 @@
-# Getting Started with Create React App
+Mi scuso per il tempo impiegato ma purtroppo come avevo scritto ad Alessia ho avuto problemi famigliari che non mi hanno permesso di poter dedicare
+il tempo necessario al progetto.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In ogni caso, spero che esso sia di vostro gradimento.
 
-## Available Scripts
+Onestamente non avevo familiarità con i vari script che avete richiesto cosi come con gly styled components,
+comunque dovrebbero essere tutti installati in maniera corretta e funzionati.
+In particolare purtroppo non so come gestire i test automatizzati, quindi lo script parte e funziona correttamente ma ovviamente non trova nessun test da runnare.
+Spero che questo non non comprometta in maniera troppo negativa l'esito del test.
 
-In the project directory, you can run:
+L'app di se per se è molto semplice, si tratta di una semplice schermata dove vengono mostrati a cascata 20 personaggi di rick e morty con tutte le informazioni necessarie.
+Ho optato per una tipica paginazione rispetto ad un infinite loading perchè pensavo che in questo modo sarebbe stato più semplice gestire il lato delle performance,
+nonostante tutto sono sicuro che l'applicazione può essere ulteriomente ottimizata.
 
-### `npm start`
+Effettuo in totale quattro chiamate api, la prima è quella dove ottengo i 20 personaggi che sono presenti all'interno della pagina, poi per ciascun personaggio eseguo altre chiamate per ottenere la location, l'origine e gli episodi.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Per quanto riguarda le informazioni generali, cosi come la location e l'origine, non avevo molti dubbi su come presentarli a schermo mentre invece per quanto riguarda gli episodi non sapemo benissimo come impostarli, visto che alcuni personaggi possno avere molti episodi.
+Alla fine ho scelto di inserire tutti gli epidosi all'interno di un div con overflow scroll.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Tutte le informazioni più importanti sono locate all'interno di un context che utilizza un reducer per la gestione dei vari stati.
+Probabilmente, trattandosi di un'applicazione molto piccola il context è un po overkill ma ci tenevo ad usarlo.
 
-### `npm test`
+Anche se è stata la mia prima volta, spero infine di aver usato in maniera corretta gli styled components.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Spero che il progetto sia di vostro gradimento,
+grazie.
