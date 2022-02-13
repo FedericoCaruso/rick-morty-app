@@ -8,7 +8,8 @@ comunque dovrebbero essere tutti installati in maniera corretta e funzionati.
 In particolare purtroppo non so come gestire i test automatizzati, quindi lo script parte e funziona correttamente ma ovviamente non trova nessun test da runnare.
 Spero che questo non non comprometta in maniera troppo negativa l'esito del test.
 
-L'app di se per se è molto semplice, si tratta di una semplice schermata dove vengono mostrati a cascata 20 personaggi di rick e morty con tutte le informazioni necessarie.
+L'app di se per se è molto semplice, è pensata solo per i dispostivi mobile.
+Si tratta di una semplice schermata dove vengono mostrati a cascata 20 personaggi di rick e morty con tutte le informazioni necessarie.
 Ho optato per una tipica paginazione rispetto ad un infinite loading perchè pensavo che in questo modo sarebbe stato più semplice gestire il lato delle performance,
 nonostante tutto sono sicuro che l'applicazione può essere ulteriomente ottimizata.
 
